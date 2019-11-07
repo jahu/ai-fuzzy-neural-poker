@@ -1,0 +1,129 @@
+<class-diagram version="1.0.10" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.view.GuiHeadsUpView" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/view/GuiHeadsUpView.java" binary="false">    
+    <position height="-1" width="-1" x="945" y="217"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.facade.StandardHeadsUpGame" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/facade/StandardHeadsUpGame.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="153" y="344"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.facade.HeadsUpGame" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/facade/HeadsUpGame.java" binary="false">    
+    <position height="-1" width="-1" x="129" y="775"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.service.AIEngine" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/service/AIEngine.java" binary="false">    
+    <position height="-1" width="-1" x="360" y="1163"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.view.HeadsUpView" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/view/HeadsUpView.java" binary="false">    
+    <position height="-1" width="-1" x="905" y="811"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.service.ai.PokerFuzzyController" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/service/ai/PokerFuzzyController.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="928" y="1099"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.controller.HeadsUpController" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/controller/HeadsUpController.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="509" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" 
+    name="pl.j4hu.j4poker.headsup.controller.StandardHeadsUpController" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/controller/StandardHeadsUpController.java" binary="false">    
+    <position height="-1" width="-1" x="549" y="259"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.domain.CpuPlayer" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/domain/CpuPlayer.java" binary="false">    
+    <position height="112" width="246" x="786" y="1238"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="10">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="11">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="12" name="controller"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="15" name="view"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="18" name="aiEngine"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="21" name="fuzzyController"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="23">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,93 @@
+<class-diagram version="1.0.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.service.AIEngine" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/service/AIEngine.java" binary="false">    
+    <position height="-1" width="-1" x="279" y="209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false"/>      
+      <operations public="false" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.domain.CpuPlayer" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/domain/CpuPlayer.java" binary="false">    
+    <position height="-1" width="-1" x="77" y="210"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false"/>      
+      <operations public="false" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.service.ai.PerceptronTeacher" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/service/ai/PerceptronTeacher.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="116" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false"/>      
+      <operations public="false" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.service.ai.PokerFuzzyController" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/service/ai/PokerFuzzyController.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="279" y="313"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false"/>      
+      <operations public="false" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.fuzzy.FuzzyController" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/fuzzy/FuzzyController.java" binary="false">    
+    <position height="-1" width="-1" x="66" y="314"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false"/>      
+      <operations public="false" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.Perceptron" project="HeadsUpPoker"
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/Perceptron.java" binary="false">    
+    <position height="-1" width="-1" x="279" y="92"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false"/>      
+      <operations public="false" package="true" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <association id="7">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="8" name="fuzzyController">        
+        <position height="14" width="78" x="124" y="294"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="10">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="11" name="perceptron"/>
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="14" name="fuzzyController"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="17" name="aiEngine"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="false" package="true" protected="false" private="false"/>    
+    <operations public="false" package="true" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

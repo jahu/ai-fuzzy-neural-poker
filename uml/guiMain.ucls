@@ -1,0 +1,41 @@
+<class-diagram version="1.0.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.view.GuiHeadsUpView" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/view/GuiHeadsUpView.java" binary="false">    
+    <position height="-1" width="-1" x="382" y="394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <interface id="2" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.view.HeadsUpView" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/view/HeadsUpView.java" binary="false">    
+    <position height="-1" width="-1" x="495" y="180"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="true" package="false" protected="true" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.view.ConsoleHeadsUpView" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/view/ConsoleHeadsUpView.java" binary="false">    
+    <position height="-1" width="-1" x="604" y="394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <realization id="4">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="5">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="false" package="false" protected="true" private="false"/>    
+    <operations public="false" package="false" protected="true" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

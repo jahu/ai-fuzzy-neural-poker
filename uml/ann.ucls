@@ -1,0 +1,172 @@
+<class-diagram version="1.0.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.Layer" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/Layer.java" binary="false">    
+    <position height="-1" width="-1" x="91" y="217"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.Weight" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/Weight.java" binary="false">    
+    <position height="-1" width="-1" x="459" y="505"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.SigmoidFunction" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/SigmoidFunction.java" binary="false">    
+    <position height="-1" width="-1" x="323" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <interface id="4" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.ActivationFunction" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/ai/ann/ActivationFunction.java" binary="false">    
+    <position height="-1" width="-1" x="321" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.Perceptron" project="HeadsUpPoker"
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/Perceptron.java" binary="false">    
+    <position height="-1" width="-1" x="92" y="64"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.Neuron" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/Neuron.java" binary="false">    
+    <position height="62" width="143" x="228" y="28"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.InputLayer" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/InputLayer.java" binary="false">    
+    <position height="-1" width="-1" x="174" y="369"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.OutputLayer" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/OutputLayer.java" binary="false">    
+    <position height="-1" width="-1" x="57" y="371"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.LearningVector" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/LearningVector.java" binary="false">    
+    <position height="-1" width="-1" x="98" y="522"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.ai.ann.Connection" project="HeadsUpPoker" 
+    file="/HeadsUpPoker/src/pl/j4hu/ai/ann/Connection.java" binary="false">    
+    <position height="-1" width="-1" x="462" y="316"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <association id="11">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="12" name="neurons">        
+        <position height="14" width="44" x="214" y="120"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="15" name="neurons">        
+        <position height="14" width="44" x="245" y="134"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="18">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="19" name="neurons"/>      
+      <multiplicity id="20" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="22" name="neuron">        
+        <position height="14" width="38" x="308" y="122"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="25" name="weight"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="27">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="28">    
+    <bendpoint x="460" y="62"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="29" name="input"/>      
+      <multiplicity id="30" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="32" name="layers"/>      
+      <multiplicity id="33" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="35">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="36" name="activationFunction"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

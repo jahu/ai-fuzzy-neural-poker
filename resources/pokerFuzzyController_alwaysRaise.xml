@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pokerFuzzyController>
+
+<!-- Fuzzy Variables -->
+<variables>
+	<variable name="HandStrenght" space="0.3;0.9">
+		<set name="Week" class="L" values="0.3;0.5" />
+		<set name="Medium" class="T" values="0.4;0.55;0.75" />
+		<set name="Strong" class="G" values="0.6;0.9" />
+	</variable>
+	
+	<variable name="Raise" space="0.0;2.0">
+		<set name="Small" class="term" values="0.0" />
+		<set name="Big" class="term" values="1.0" />
+		<set name="AllIn" class="term" values="2.0" />
+	</variable>
+	
+	<variable name="MoveType" enum="pl.j4hu.j4poker.headsup.domain.MoveType" />
+	
+	<variable name="Phase" enum="pl.j4hu.j4poker.headsup.domain.Phase" />
+	
+	<variable name="OpponentLastMove" enum="pl.j4hu.j4poker.headsup.domain.MoveType" />
+	
+	<variable name="StackSize" space="0.0;100.0">
+		<set name="Short" class="L" values="0.0;12.0" />
+		<set name="Medium" class="T" values="10.0;40.0;75.0" />
+		<set name="Big" class="G" values="65.0;100.0" />
+	</variable>
+	
+	<variable name="AmountToCall" space="0.0;4.0">
+		<set name="Small" class="L" values="0.0;1.0" />
+		<set name="PotSize" class="T" values="0.5;1.0;2.0" />
+		<set name="Big" class="G" values="1.5;4.0" />
+	</variable>
+	
+	<variable name="TableStrenght" space="2.0;14.0">
+		<set name="Week" class="L" values="2.0;8.0" />
+		<set name="Medium" class="T" values="4.0;8.0;12.0" />
+		<set name="Strong" class="G" values="10.0;14.0" />
+	</variable>
+	
+	<variable name="MyContribution" space="0.0;100.0"> <!--  ile procent mojego stacka wsadzilem do puli -->
+		<set name="Small" class="L" values="0.0;20.0" />
+		<set name="Medium" class="T" values="15.0;30.0;45.0" />
+		<set name="Big" class="G" values="40.0;100.0" />
+	</variable>
+	
+	<variable name="OpponentContribution" space="0.0;100.0"> <!--  ile procent mojego stacka wsadzilem do puli -->
+		<set name="Small" class="L" values="0.0;20.0" />
+		<set name="Medium" class="T" values="15.0;30.0;45.0" />
+		<set name="Big" class="G" values="40.0;100.0" />
+	</variable>
+	
+	<variable name="PotSize" space="0.0;100.0"> <!--  ile procent mojego sumy stackow stanowi pula -->
+		<set name="Small" class="L" values="0.0;30.0" />
+		<set name="Medium" class="T" values="15.0;30.0;45.0" />
+		<set name="Big" class="G" values="40.0;100.0" />
+	</variable>
+	
+	<!--  zmienne do podjecia ostatecznej decyzji -->
+	<variable name="MyInitialMove" enum="pl.j4hu.j4poker.headsup.service.PredictedMove" />	
+	
+	<variable name="PredictedOpponentMove" enum="pl.j4hu.j4poker.headsup.service.PredictedMove" />
+	
+</variables>
+
+<!-- Fuzzy Rules -->
+<rules>
+	<rule>
+		<constraint name="HandStrenght" value="Week" />
+		<conclusion name="MoveType" value="Raise" /><conclusion name="Raise" value="Small" />
+	</rule>
+	<rule>
+		<constraint name="HandStrenght" value="Medium" />
+		<conclusion name="MoveType" value="Raise" /><conclusion name="Raise" value="Small" />
+	</rule>
+	<rule>
+		<constraint name="HandStrenght" value="Strong" />
+		<conclusion name="MoveType" value="Raise" /><conclusion name="Raise" value="Small" />
+	</rule>
+</rules>
+
+</pokerFuzzyController>

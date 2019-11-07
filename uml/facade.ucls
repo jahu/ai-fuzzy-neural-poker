@@ -1,0 +1,42 @@
+<class-diagram version="1.0.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.facade.StandardHeadsUpGame" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/facade/StandardHeadsUpGame.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="486" y="249"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="true" package="false" protected="true" private="false"/>    
+    </display>  
+  </class>  
+  <interface id="2" corner="BOTTOM_RIGHT" language="java" name="pl.j4hu.j4poker.headsup.facade.HeadsUpGame" 
+    project="HeadsUpPoker" file="/HeadsUpPoker/src/pl/j4hu/j4poker/headsup/facade/HeadsUpGame.java" binary="false">    
+    <position height="-1" width="-1" x="715" y="253"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" name="java.lang.Runnable" project="HeadsUpPoker" 
+    file="D:/Trainings/Spring/development/install/java/jdk1.7.0/jre/lib/rt.jar" binary="true">    
+    <position height="-1" width="-1" x="301" y="249"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="true" protected="false" private="false"/>      
+      <operations public="false" package="true" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <realization id="4">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="5">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="false" package="true" protected="false" private="false"/>    
+    <operations public="false" package="true" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
